@@ -150,3 +150,29 @@ body {
 
 
 }
+
+#footer_bottom {
+    background-color: #303030;
+    padding: 1rem;
+
+    button {
+        padding: 1rem;
+        border: 2px solid #0282F9;
+        background-color: #303030;
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #0282F9;
+            transition: 0.4s;
+        }
+
+    }
+
+    a {
+        text-decoration: none;
+        color: #0282F9;
+        font-weight: bold;
+    }
+}

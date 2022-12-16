@@ -110,4 +110,23 @@
         </div>
     </section>
 
+    <section id="footer_bottom">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <button>SIGN UP NOW!</button>
+                </div>
+
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <p class="col-2 m-0 p-0"><a href="#">FOLLOW US</a></p>
+                    <img class="ms-3" src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="">
+                    <img class="ms-3" src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="">
+                    <img class="ms-3" src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="">
+                    <img class="ms-3" src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="">
+                    <img class="ms-3" src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
 </footer>
