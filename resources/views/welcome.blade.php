@@ -2,26 +2,41 @@
 
 @section('content')
 
-<div class="container">
+<section id="all_cards">
 
-    <div class="row g-5">
+    <div class="container position-relative">
 
-        @foreach ($comics as $comic)
+        <div class="row p-3 g-5">
 
-        <div class="col-2">
+            @foreach ($comics as $comic)
 
-            <div class="card">
+            <div class="col-2">
 
-                <img class="card-img-top" src="{{ $comic['thumb']}}">
+                <div class="card">
+
+                    <a href="#"><img class="card-img-top" src="{{ $comic['thumb']}}"></a>
+
+                </div>
+
+                <h5 class="text-white text-center"><a href="#">{{ $comic['series']}}</a></h5>
 
             </div>
 
+            @endforeach
+
         </div>
 
-        @endforeach
+        <div class="centered_button">
+            <button>LOAD MORE</button>
+        </div>
+
+        <div class="disclaimer d-flex justify-content-center align-items-center">
+            <p class="m-0">CURRENT SERIES</p>
+        </div>
 
     </div>
 
-</div>
+</section>
+
 
 @endsection

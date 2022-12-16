@@ -45,3 +45,59 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+#all_cards {
+    background-color: #1c1c1c;
+
+    .card {
+        border: none;
+    }
+
+    h5 {
+        font-size: 16px;
+        margin-top: 1rem;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-style: italic;
+
+            &:hover {
+                color: #0282F9;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    .centered_button {
+        text-align: center;
+
+        button {
+            padding: 0.5rem 2rem;
+            background-color: #0282F9;
+            color: #ffffff;
+            font-family: 'PT Sans Narrow', sans-serif;
+            margin-bottom: 1rem;
+            border: none;
+            font-weight: bold;
+
+            &:hover {
+                cursor: pointer;
+                background-color: #ffffff;
+                color: #1c1c1c;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    .disclaimer {
+        background-color: #0282F9;
+        padding: 0.5rem 1rem;
+        color: #ffffff;
+        position: absolute;
+        transform: translate(0, -50%);
+        bottom: 95%;
+        font-weight: bold;
+    }
+}
