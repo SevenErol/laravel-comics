@@ -22,7 +22,7 @@
         @yield('content')
     </main>
 
-    <h1>hello world</h1>
+
     @include('partials.footer')
 
 </body>

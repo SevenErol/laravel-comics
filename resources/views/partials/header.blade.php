@@ -11,8 +11,6 @@
 
     <section id="navigation">
 
-
-
         <nav class="navbar navbar-expand-lg">
 
             <div class="container">
@@ -72,7 +70,9 @@
 
         </nav>
 
+    </section>
 
+    <section id="jumbotron">
 
     </section>
 

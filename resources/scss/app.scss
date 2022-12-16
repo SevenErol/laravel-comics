@@ -18,6 +18,7 @@ body {
 
 #navigation {
     background-color: white;
+    padding: 1rem;
 
     nav {
         color: #1c1c1c;
@@ -35,4 +36,12 @@ body {
         border: none;
         border-bottom: 1px solid #0282F9;
     }
+
+}
+
+#jumbotron {
+    height: 400px;
+    background-image: url('../img/jumbotron.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
