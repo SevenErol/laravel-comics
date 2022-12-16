@@ -37,5 +37,77 @@
 
     </section>
 
+    <section id="footer_center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 d-flex flex-wrap">
+                    <div class="col-4 p-3">
+
+                        <h3>DC COMICS</h3>
+                        <ul class="p-0 m-0">
+                            <li>Characters</li>
+                            <li>Comics</li>
+                            <li>Movies</li>
+                            <li>TV</li>
+                            <li>Games</li>
+                            <li>Videos</li>
+                            <li>News</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-4 p-3">
+
+                        <h3>DC COMICS</h3>
+                        <ul class="p-0 m-0">
+                            <li>Characters</li>
+                            <li>Comics</li>
+                            <li>Movies</li>
+                            <li>TV</li>
+                            <li>Games</li>
+                            <li>Videos</li>
+                            <li>News</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-4 p-3">
+
+                        <h3>DC COMICS</h3>
+                        <ul class="p-0 m-0">
+                            <li>Characters</li>
+                            <li>Comics</li>
+                            <li>Movies</li>
+                            <li>TV</li>
+                            <li>Games</li>
+                            <li>Videos</li>
+                            <li>News</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-4 p-3">
+
+                        <h3>DC COMICS</h3>
+                        <ul class="p-0 m-0">
+                            <li>Characters</li>
+                            <li>Comics</li>
+                            <li>Movies</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+                <div class="col-6 img_position">
+
+                    <img class="img-fluid" src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 </footer>

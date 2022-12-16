@@ -115,3 +115,38 @@ body {
         width: 48px;
     }
 }
+
+#footer_center {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h3 {
+        color: white;
+    }
+
+    li {
+        list-style: none;
+        color: lightgray;
+        font-size: 12px;
+        margin: 1rem 0;
+    }
+
+
+    .img_position {
+        position: relative;
+        overflow: hidden;
+
+        img {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+        }
+    }
+
+
+}
